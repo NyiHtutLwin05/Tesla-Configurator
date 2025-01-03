@@ -1,0 +1,20 @@
+.btn-selected {
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  padding: 8px;
+  transition: transform 0.3s;
+}
+.btn-selected:hover {
+  transform: scale(1) !important;
+}
+#top-bar {
+  transition: transform 0.5s ease-in-out;
+}
+
+.visible-bar {
+  transform: translateY(0%);
+}
+
+.hidden-bar {
+  transform: translateY(-100%);
+}
